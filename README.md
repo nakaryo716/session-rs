@@ -47,7 +47,7 @@ pub struct SessionManagerLayer<Store: SessionStore, C: CookieController = Plaint
 }
 ```
 
-### Forth step: *Using session-layer*
+### Fourth step: *Using session-layer*
 Thank for ```.layer()```, we can use session-layer.  
 Session struct provide a lot of method. See document.  
 We dont have to think about cookie and session manage deeply!!
